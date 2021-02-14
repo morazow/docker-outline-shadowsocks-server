@@ -1,5 +1,9 @@
 # Outline Shadowsocks Server &#x1F433;
 
+[![Docker Image Version][version-badge]][hub-link]
+[![Docker Image Size][size-badge]][hub-link]
+[![Docker Pulls][pulls-badge]][hub-link]
+
 The standalone [outline-ss-server][outline-ss-server] that runs inside the
 [Google Distroless][distroless] static image.
 
@@ -88,3 +92,7 @@ docker build --build-arg OUTLINE_SHADOWSOCKS_VERSION="$VERSION" \
 [outline-ss-server]: https://github.com/Jigsaw-Code/outline-ss-server
 [prometheus]: https://prometheus.io/
 [aead-ciphers]: https://shadowsocks.org/en/wiki/AEAD-Ciphers.html
+[pulls-badge]: https://img.shields.io/docker/pulls/morazow/outline-shadowsocks-server.svg?style=flat-square&logo=docker
+[size-badge]: https://img.shields.io/docker/image-size/morazow/outline-shadowsocks-server.svg?style=flat-square&logo=docker
+[version-badge]: https://img.shields.io/docker/v/morazow/outline-shadowsocks-server.svg?style=flat-square&logo=docker
+[hub-link]: https://hub.docker.com/r/morazow/outline-shadowsocks-server
