@@ -76,7 +76,7 @@ docker-compose up -d
 Build with a version:
 
 ```sh
-VERSION=1.3.4 && \
+VERSION="1.3.4" && \
 docker build --build-arg OUTLINE_SHADOWSOCKS_VERSION="$VERSION" \
     -f Dockerfile \
     -t "morazow/outline-shadowsocks-server:$VERSION" \
@@ -85,7 +85,7 @@ docker build --build-arg OUTLINE_SHADOWSOCKS_VERSION="$VERSION" \
 
 ## License
 
-[The MIT License (MIT)](LICENSE)
+[MIT License (MIT)](LICENSE)
 
 [distroless]: https://github.com/GoogleContainerTools/distroless
 [outline-server]: https://github.com/Jigsaw-Code/outline-server

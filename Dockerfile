@@ -23,6 +23,8 @@ RUN set -e -x && \
 
 FROM gcr.io/distroless/static
 COPY --from=BASE_BUILD /usr/local/bin/outline /usr/local/bin/outline
+
 VOLUME ["/outline"]
+
 ENTRYPOINT ["/usr/local/bin/outline"]
 CMD ["-config", "/outline/config.yml", "-udptimeout", "5m0s", "--replay_history", "1000"]
