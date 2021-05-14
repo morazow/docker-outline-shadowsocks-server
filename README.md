@@ -76,7 +76,7 @@ docker-compose up -d
 Build with a version:
 
 ```sh
-VERSION="1.3.4" && \
+VERSION="1.3.5" && \
 docker build --build-arg OUTLINE_SHADOWSOCKS_VERSION="$VERSION" \
     -f Dockerfile \
     -t "morazow/outline-shadowsocks-server:$VERSION" \
