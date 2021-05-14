@@ -85,7 +85,7 @@ docker build --build-arg OUTLINE_SHADOWSOCKS_VERSION="$VERSION" \
 
 ## License
 
-[MIT License (MIT)](LICENSE)
+[MIT License](LICENSE)
 
 [distroless]: https://github.com/GoogleContainerTools/distroless
 [outline-server]: https://github.com/Jigsaw-Code/outline-server
